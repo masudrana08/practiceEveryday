@@ -1,22 +1,27 @@
-div{
-    height:500px;
-    width:500px;
-    border:2px solid black;
-    overflow:auto;
-    position:absolute;
-    top:0;
-    right:0;
-    left:0;
-    bottom:0;
-    margin:auto;
-    color:white;;
-    background-color:red;
-    font-weight:bold;
-    line-height:30px;
-    word-spacing:7px;
-    padding:10px;
+.box{
+    background:red;
+    height:300px;
+    width:25%;
+    float:left;
+
 }
 
-h1{
-    text-align:center;
+.box1{
+    background:black;
+}
+.box2{
+    background:green;
+}
+
+.box3{
+    background:yellow;
+}
+
+.box4{
+    background:blue;
+}
+
+img{
+    float:right;
+    
 }
