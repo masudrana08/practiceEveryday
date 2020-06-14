@@ -1,42 +1,19 @@
-body{
-    text-align:center;
-    min-width:360px;
-    position:absolute;
-    margin-left:18%;
-    right:0;
-    left:0;
-    font-size:20px;
+.row1{
+    display:flex;
+}
+
+.row2{
+    display:flex;
+}
+
+img{
+    height:200px;
+    width:100%;
     
-}
-
-header{
-    font-size:1.5em;
-    max-width:80%;
-    background-color:red;
-    color:white;
-}
-
-.section1{
-    max-width:80%;
-    border:2px solid red;
-    
-}
-
-.section1 li{
-    list-style-type: none;
-}
-
-.section2{
-    max-width:80%;
-    border:2px solid red;
-}
-
-footer{
-    max-width:80%;
-    background:red;
-    color:white;
 }
 
 .container{
-    margin:0 100px;
+    width:80%;
+    max-width:956px;
+    margin:auto;
 }
