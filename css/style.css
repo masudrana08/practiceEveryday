@@ -1,27 +1,24 @@
-.box{
-    background:red;
-    height:300px;
-    width:25%;
-    float:left;
-
+span.a{
+    display:block;
+    background-color:red;
+    height:100px;
+    width:100px;
 }
 
-.box1{
-    background:black;
-}
-.box2{
-    background:green;
-}
-
-.box3{
-    background:yellow;
+span.b{
+    display:inline-block;
+    background-color:red;
+    height:100px;
+    width:100px;
 }
 
-.box4{
-    background:blue;
+span.c{
+    display:inline;
+    background-color:red;
+    height:100px;
+    width:100px;
 }
-
-img{
-    float:right;
-    
+span{
+    color:white;
+    padding:10px;
 }
