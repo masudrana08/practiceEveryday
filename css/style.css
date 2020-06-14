@@ -1,5 +1,22 @@
+div{
+    height:500px;
+    width:500px;
+    border:2px solid black;
+    overflow:auto;
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    margin:auto;
+    color:white;;
+    background-color:red;
+    font-weight:bold;
+    line-height:30px;
+    word-spacing:7px;
+    padding:10px;
+}
 
-body{
-    background:red   no-repeat  top center /
-    200px auto url("../files/icon.png") ;
+h1{
+    text-align:center;
 }
