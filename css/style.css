@@ -1,0 +1,12 @@
+
+h1:nth-child(3)::first-letter{
+    color:red;
+}
+
+h1:nth-child(4)::after{
+    content:"Hello ";
+    color:red;
+    font-size:40px;
+    background:black;
+    
+}
