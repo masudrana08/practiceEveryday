@@ -1,36 +1,47 @@
-.row{
-    display:flex;
-    justify-content:space-between;
+body{
+    margin:0;
+}
+.mav{
+    height:50px;
+    width:100%;
+    background-color:red;
     
 
 }
-.row .cola{
-    width:33%;
+
+ul{
+    margin:0;
+    list-style: none;
+    
+}
+ul li{
+    padding:16px 10px 16px 10px;
+    float:left;
+    border-radius:10px;
+    margin:0;
 }
 
-img{
-    height:200px;
-    width:100%;
+ul li a{
+    margin:0;
+    text-decoration: none;
+    padding:20px 15px;
+    color:white;
+}
+ul li ul li{
+    float:none;
+    text-align:center;
+    display:block;
+    margin:0;
+    
     
 }
 
-.container{
-    width:80%;
-    max-width:1280px;
-    margin:auto;
+ul li:hover {
+    background-color:green;
+
 }
 
-.bg{
-    background:url("../files/a.png") no-repeat;
-    background-size:100% 80%;
-    height:120px;
-    width:100%;
-}
+ul li ul li:hover{
+    background-color:orange;
 
-@media (max-width:444px){
-    div{
-        display:flex;
-        flex-direction:column;
-
-    }
 }
