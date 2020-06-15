@@ -1,9 +1,11 @@
-.row1{
+.row{
     display:flex;
-}
+    justify-content:space-between;
+    
 
-.row2{
-    display:flex;
+}
+.row .cola{
+    width:33%;
 }
 
 img{
@@ -14,6 +16,21 @@ img{
 
 .container{
     width:80%;
-    max-width:956px;
+    max-width:1280px;
     margin:auto;
+}
+
+.bg{
+    background:url("../files/a.png") no-repeat;
+    background-size:100% 80%;
+    height:120px;
+    width:100%;
+}
+
+@media (max-width:444px){
+    div{
+        display:flex;
+        flex-direction:column;
+
+    }
 }
