@@ -1,43 +1,72 @@
+.dropitem-a{
+    display:none;
+}
+
+.dropitem-a li a:hover{
+    
+    width:100%;
+    background-color:orange;
+}
+.dropdown-a:hover .dropitem-a{
+    
+    display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 body{
     margin:0;
 }
 ul{
     margin:0;
     padding:0;
-    background:black;
+    background-color:black;
     overflow: hidden;
+}
+li{
+    border-radius:10px;
 }
 
 ul li{
     
-    float:left;
+    overflow: hidden;float:left;
     list-style-type: none;
-
 }
 ul li a{
-    border-radius:10px;
-    text-decoration: none;
+    
     color:white;
+    text-decoration: none;
     padding:15px 20px;
     display:inline-block;
 }
-
-.drop-contain a{
-    display:block;
-    background-color:rgb(153, 152, 152);
-    margin-top:5px;
+.dropitem li{
+    display:block; 
+    float:none;
+    
+    
+}
+ul li:hover{
+    background-color:red;
 }
 
-ul li a:hover{
-    background:red;
+.dropitem li:hover{
+    background-color:green;
+    
 }
-.drop-contain a:hover{
-    background:black;
-}
-.drop-contain{
+
+.dropitem{
+    position: absolute;
     display:none;
-    position:absolute;
 }
-.dropdown:hover .drop-contain{
+.dropdown:hover .dropitem{
     display:block;
 }
