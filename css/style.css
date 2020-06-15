@@ -36,20 +36,26 @@ display:block;
 .dropdown2:hover .dropcontent2{
     display:block;
 }
-li:hover a{
+li a:hover {
     background: green;
+    box-shadow:5px 5px orange, -5px -5px orange;
 }
 .dropdown a:hover{
-background: red;}
+background: red;
+box-shadow: 5px 5px blue, -5px -5p blue;
+}
 
 .dropdown2 a:hover{
-background: orange;}
+background: orange;
+box-shadow:5px 5px red, -5px -5px red;
+}
 li a{
 border-radius:5px 15px;
 margin-left:5px}
 
 .dropcontent2 a{
-margin-top:2px}
+margin-top:2px;
+}
 .dropdown a{
     margin-top:3px;
 }
