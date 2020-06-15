@@ -1,48 +1,6 @@
-ul{
-    margin:0;
-    padding:0;
+h1{
+    font-family:sans-serif;
+    font-size:80px;
+    text-align:center;
+    text-shadow:2px 1px rgb(78, 142, 247), -2px 1px rgb(78, 142, 247), 1px 2px rgb(78, 142, 247), 1px -2px rgb(78, 142, 247);
 }
-li{
-    list-style-type: none;
-}
-
-li a{
-    background:url('../files/social-sprite.png');
-    height:80px;
-    width:79px;
-    float:left;
-    display:inline-block;
-    background-position:0 0;
-    transition:0.5s;
-
-}
-
-li:nth-child(1):hover a{
-    background-position: 0px -78px;
-}
-
-li:nth-child(2) a{
-    background-position:-78px 0;
-
-}
-li:nth-child(2):hover a{
-    background-position:-78px -78px;
-
-}
-li:nth-child(3) a{
-    background-position:-158px 0;
-
-}
-li:nth-child(3):hover a{
-    background-position:-158px -78px;
-
-}
-li:nth-child(4) a{
-    background-position:86px 0;
-
-}
-li:nth-child(4):hover a{
-    background-position:86px -78px;
-
-}
-
