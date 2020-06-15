@@ -1,21 +1,55 @@
-.masud{
-    width:500px;
-    border:0.7px solid;
-    margin:auto;
+body{
+
+}
+ul{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style-type:none;
+    float:left;
+}
+li a{
+    text-decoration: none;
+    background:black;
+    color:white;
+    
+    display:inline-block;
+    padding:15px 20px;
+}
+.dropcontent li a{
+   
+    display:block
+}
+.dropcontent{
+    position:absolute;
+    display:none;
 }
 
-img{
-    width:100%;
+.dropdown:hover .dropcontent{
+display:block;
 }
-.container h2{
-    text-align:center;
-    margin:0;
-    padding:5px;
+
+.dropcontent2{
+    display:none;
+}
+.dropdown2:hover .dropcontent2{
     display:block;
-    background-color:rgb(146, 143, 143);
-    color:white;
 }
-.masud:hover{
-    box-shadow:5px 8px rgba(0, 174, 255, 0.355), -3px 8px rgba(0, 174, 255, 0.37);
+li:hover a{
+    background: green;
 }
+.dropdown a:hover{
+background: red;}
+
+.dropdown2 a:hover{
+background: orange;}
+li a{
+border-radius:5px 15px;
+margin-left:5px}
+
+.dropcontent2 a{
+margin-top:2px}
+.dropdown a{
+    margin-top:3px;
 }
