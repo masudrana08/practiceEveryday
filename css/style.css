@@ -1,47 +1,43 @@
 body{
     margin:0;
 }
-.mav{
-    height:50px;
-    width:100%;
-    background-color:red;
-    
-
-}
-
 ul{
     margin:0;
-    list-style: none;
-    
+    padding:0;
+    background:black;
+    overflow: hidden;
 }
+
 ul li{
-    padding:16px 10px 16px 10px;
+    
     float:left;
-    border-radius:10px;
-    margin:0;
-}
+    list-style-type: none;
 
+}
 ul li a{
-    margin:0;
+    border-radius:10px;
     text-decoration: none;
-    padding:20px 15px;
     color:white;
+    padding:15px 20px;
+    display:inline-block;
 }
-ul li ul li{
-    float:none;
-    text-align:center;
+
+.drop-contain a{
     display:block;
-    margin:0;
-    
-    
+    background-color:rgb(153, 152, 152);
+    margin-top:5px;
 }
 
-ul li:hover {
-    background-color:green;
-
+ul li a:hover{
+    background:red;
 }
-
-ul li ul li:hover{
-    background-color:orange;
-
+.drop-contain a:hover{
+    background:black;
+}
+.drop-contain{
+    display:none;
+    position:absolute;
+}
+.dropdown:hover .drop-contain{
+    display:block;
 }
