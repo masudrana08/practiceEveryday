@@ -1,72 +1,48 @@
-.dropitem-a{
-    display:none;
-}
-
-.dropitem-a li a:hover{
-    
-    width:100%;
-    background-color:orange;
-}
-.dropdown-a:hover .dropitem-a{
-    
-    display:block;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-body{
-    margin:0;
-}
 ul{
     margin:0;
     padding:0;
-    background-color:black;
-    overflow: hidden;
 }
 li{
-    border-radius:10px;
-}
-
-ul li{
-    
-    overflow: hidden;float:left;
     list-style-type: none;
 }
-ul li a{
-    
-    color:white;
-    text-decoration: none;
-    padding:15px 20px;
+
+li a{
+    background:url('../files/social-sprite.png');
+    height:80px;
+    width:79px;
+    float:left;
     display:inline-block;
-}
-.dropitem li{
-    display:block; 
-    float:none;
-    
-    
-}
-ul li:hover{
-    background-color:red;
+    background-position:0 0;
+    transition:0.5s;
+
 }
 
-.dropitem li:hover{
-    background-color:green;
-    
+li:nth-child(1):hover a{
+    background-position: 0px -78px;
 }
 
-.dropitem{
-    position: absolute;
-    display:none;
+li:nth-child(2) a{
+    background-position:-78px 0;
+
 }
-.dropdown:hover .dropitem{
-    display:block;
+li:nth-child(2):hover a{
+    background-position:-78px -78px;
+
 }
+li:nth-child(3) a{
+    background-position:-158px 0;
+
+}
+li:nth-child(3):hover a{
+    background-position:-158px -78px;
+
+}
+li:nth-child(4) a{
+    background-position:86px 0;
+
+}
+li:nth-child(4):hover a{
+    background-position:86px -78px;
+
+}
+
