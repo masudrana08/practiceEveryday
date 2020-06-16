@@ -1,12 +1,29 @@
-.box{
-    height:200px;
-    width:200px;
-    background:red;
-   
+*{
+    box-sizing: border-box;
 }
-.box:hover{
-     transition:transform 2s, height 5s, width 5s;
-    height:500px;
-    width:500px;
-    transform:rotate(180deg);
+.box1, .box2, .box3{
+    height:70px;
+    width:100%;
+    border:2px solid ;
+    margin-bottom:5px;
+}
+
+.box4, .box5, .box6{
+    border:2px solid;
+    height:70px;
+    width:100%;
+    margin:auto;
+}
+.b{
+    display:flex;
+}
+
+.box7, .box8{
+     border:2px solid;
+    height:70px;
+    width:100%;
+    
+}
+.c{
+    display:flex;
 }
