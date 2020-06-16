@@ -11,7 +11,7 @@ body{
    
 }
 .container{
-    padding:20px 210px 12px 210px;
+    padding:13px 210px 6px 210px;
     display:flex;
     width:70%;
     margin:auto;
@@ -23,8 +23,9 @@ body{
 .login{
     margin-top:4px;
 }
-.password input, .login input{
+.password input, .email input{
     margin:5px 0;
+    width:135px;
 }
 
 .email{
@@ -37,11 +38,13 @@ body{
 }
 .login-btn{
     padding-top:12px;
+    
 }
 .login-btn input{
     background:#4267b2;
     color:white;
-    padding:4px 10px;
+    margin-top:4px;
+    padding:3px 5px;
 }
 .password{
     float:left;
