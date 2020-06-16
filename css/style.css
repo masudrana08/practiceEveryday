@@ -1,30 +1,27 @@
-img{
-    width:33%;
-    height:auto;
-    float:left;
+.container-grid{
+    display:grid;
+    background:red;
+    grid-template-columns: 50px auto 150px 150px;
+    grid-template-rows: auto 300px auto;
+}
+.grid-item{
+    text-align:center;
+    border:2px solid;
+    padding:20px;
+    box-sizing:border-box;
 }
 
-.brightness{
-    filter:brightness(190%); /*per and val */
+.item1{
+    grid-column-start: 1;
+    grid-column-end:4;
 }
 
-.saturature{
-    filter:saturate(1959%) /*per and val */
+.item3{
+    grid-column-start:1 ;
+    grid-column-end:4;
 }
 
-
-.blur{
-    filter:blur(1px) /*pixel*/
-}
-
-.grayscale{
-    filter:grayscale(100%) /*point and percentage*/
-}
-
-.sepia{
-    filter:sepia(0.9) /*point*/
-}
-
-.shadow:hover{
-    filter:drop-shadow(2px 2px 15px grey)/*point*/
+.item5{
+    grid-column-start:1 ;
+    grid-column-end:5;
 }
