@@ -7,15 +7,17 @@ body{
 .header{
     background-color:#3b5998;
     color:white;
-    font-size:14px
+    font-size:14px;
+    width:100%;
+    
    
 }
 .container{
     padding:13px 210px 6px 210px;
     display:flex;
-    width:70%;
-    margin:auto;
     justify-content: space-between;
+    max-width: 1300px;
+    margin:auto;
 }
 .logo img{
     margin-top:17px;

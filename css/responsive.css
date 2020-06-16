@@ -1,0 +1,39 @@
+@media screen and (max-width:980px){
+    .container{
+        display:block;
+        float:none;
+        width:100%;
+        margin:0;
+        padding:10px 10px 30px 10px;
+        }
+    .header{
+        height:270px;
+        }
+    .logo img{
+        width:150px;
+        height:30px;
+        display:block;
+        position:relative;
+        margin:auto;
+        padding:10px 0 20px 0;
+        }
+    .login-btn input{
+        padding:3px 10px;
+    }
+    .email, .password, .login-btn{
+        margin:auto;
+        width:300px;
+        float:none;
+        display:block;
+        padding-left:10px;
+        }
+    .email input, .password input{
+        width:100%;
+    }
+    .password{
+        float:none;
+        display:block;
+        }
+    
+    
+}
