@@ -1,6 +1,61 @@
+
 body{
     margin: 0;
     padding: 0;
-    font-family:font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.header{
+    background-color:#3b5998;
+    color:white;
+    font-size:14px
+   
+}
+.container{
+    padding:20px 210px;
+    display:flex;
+    width:70%;
+    margin:auto;
+    justify-content: space-between;
+}
+.logo img{
+    margin-top:8px;
+}
+.login{
+    margin-top:4px;
+}
+.password input, .login input{
+    margin:5px 0;
 }
 
+.email{
+    float:left;
+    padding-right:15px;
+}
+
+.email label, .password label, .password input, .login-btn{
+    display:block;
+}
+.login-btn{
+    padding-top:12px;
+}
+.login-btn input{
+    background:#4267b2;
+    color:white;
+    padding:4px 10px;
+}
+.password{
+    float:left;
+    padding-right:15px;
+}
+
+.password a{
+    color:#8ea1c8;
+    text-decoration: none;
+}
+.login-btn{
+    float:left;
+}
+
+.login{
+   
+}
