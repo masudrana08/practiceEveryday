@@ -1,29 +1,30 @@
-*{
-    box-sizing: border-box;
-}
-.box1, .box2, .box3{
-    height:70px;
-    width:100%;
-    border:2px solid ;
-    margin-bottom:5px;
+img{
+    width:33%;
+    height:auto;
+    float:left;
 }
 
-.box4, .box5, .box6{
-    border:2px solid;
-    height:70px;
-    width:100%;
-    margin:auto;
-}
-.b{
-    display:flex;
+.brightness{
+    filter:brightness(190%); /*per and val */
 }
 
-.box7, .box8{
-     border:2px solid;
-    height:70px;
-    width:100%;
-    
+.saturature{
+    filter:saturate(1959%) /*per and val */
 }
-.c{
-    display:flex;
+
+
+.blur{
+    filter:blur(1px) /*pixel*/
+}
+
+.grayscale{
+    filter:grayscale(100%) /*point and percentage*/
+}
+
+.sepia{
+    filter:sepia(0.9) /*point*/
+}
+
+.shadow:hover{
+    filter:drop-shadow(2px 2px 15px grey)/*point*/
 }
