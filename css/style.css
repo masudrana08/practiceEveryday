@@ -1,24 +1,12 @@
-body{
-    margin:0;
-  
-}
 .box{
-    transition:2s;
-    transform:translate(200px, 0);
-    background:red;
     height:200px;
-    width:100px;
-    text-align: center;
-    top:59px;
-    padding:100px;
-    color:white;
-}
-
-
-.box:hover{
-    transition:2s;
-    transform:rotate(-350deg);
-    background:red;
-    height:100px;
     width:200px;
+    background:red;
+   
+}
+.box:hover{
+     transition:transform 2s, height 5s, width 5s;
+    height:500px;
+    width:500px;
+    transform:rotate(180deg);
 }
