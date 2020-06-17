@@ -21,6 +21,9 @@
         }
     .login-btn input{
         padding:3px 10px;
+        display:block;
+        width:60px;
+        margin-left:55px;
     }
     .email, .password, .login-btn{
         margin:auto;
@@ -29,13 +32,30 @@
         display:block;
         padding-left:10px;
         }
+    
+    .email, .password{
+        margin-top:10px;
+    }
     .email input, .password input{
-        width:100%;
+        width:60%;
+        margin:auto;
+        margin-top:7px;
+        display:block;
+    }
+    .login label{
+    width:60%;
+        margin:auto;
     }
     .password{
         float:none;
         display:block;
         }
+    .fgot{
+        display:block;
+        width:60%;
+        margin:auto;
+        margin-top:10px;
+    }
     
     
 }
@@ -44,16 +64,16 @@
 /*Start Signup Section  of Facebook Signup page*/
 @media screen and (max-width:980px){
     .left-part img{
-        width:80%;
+        width:70%;
         margin:auto;
-        margin-left:50px;
+        
         padding:0;
         display:block;
     }
     
     .left-title{
         display:block;
-        width:80%;
+        width:65%;
         margin:auto;
     }
     .right-part{
