@@ -75,7 +75,109 @@ body{
 /*End Header part of Facebook Signup page*/
 
 
-
 /*Start Signup Section of Facebook Signup page*/
-  
+.signup-section{
+    background:linear-gradient(rgba(212, 217, 232, 0),rgba(212, 217, 232, 1));
+}
+  .left-title{
+    color:#0e385f;
+    font-size:20px;
+    font-weight:600;
+    line-height: 27px;
+    margin-top:31px;
+    margin-right:20px;
+      width:450px;
+}
+
+.right-part{
+    margin-left:30px;
+}
+
+.right-title h1{
+    color:#333;
+    font-size:39px;
+    font-weight:600;
+    margin:0;
+}
+.right-title h3{
+    font-weight:500;
+    font-size:19px;
+    
+}
+.input-text-field input{
+    
+    width:172px;
+    border-radius:5px;
+    border:2px solid #bdc7d8;
+}
+
+.username{
+    display:flex;
+}
+.mobile-email input, .s-password input{
+    width:100%;
+    box-sizing: border-box;
+}
+.username input, .mobile-email input ,.s-password input{
+    padding:8px 6px;
+   font-weight:600;
+    font-size:14.5px;
+}
+.username, .mobile-email, .password {
+    margin:8px 0;
+    
+}
+.firstname{
+    margin-right:10px;
+}
+
+.birthdate h3{
+    color:#90949c;
+    padding:0;
+    margin:25px 0 8px 0;
+}
+.birthdate select{
+   padding:5px;
+    border:1px solid #90949c;
+}
+.gender h3{
+    color:#90949c;
+    margin-bottom:10px;
+   
+}
+.fmc{
+    display:flex;
+    font-weight:500;
+    font-size:18px;
+}
+
+.form-text{
+    font-size:11px;
+    width:330px;
+    color:#90949c;
+}
+.form-text a{
+    text-decoration: none;
+}
+
+.signup-btn input{
+    background:#69a74e;
+    display:inline-block;
+    padding:10px 60px;
+    border-radius:5px;
+    color:white;
+    font-weight:500;
+    font-size:19px;
+    border:1px solid #3b6e22;
+}
+
+.business-text a{
+    text-decoration: none;
+    color:#385898
+}
+.business-text{
+    font-size:13px;
+    color:#90949c;
+;
+}
 /*End Signup Section of Facebook Signup page*/
