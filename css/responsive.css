@@ -9,6 +9,7 @@
         }
     .header{
         height:270px;
+        width:100%;
         }
     .logo img{
         width:150px;
@@ -41,5 +42,50 @@
 /*End Header part of Facebook Signup page*/
 
 /*Start Signup Section  of Facebook Signup page*/
-
+@media screen and (max-width:980px){
+    .left-part img{
+        width:80%;
+        margin:auto;
+        margin-left:50px;
+        padding:0;
+        display:block;
+    }
+    
+    .left-title{
+        display:block;
+        width:80%;
+        margin:auto;
+    }
+    .right-part{
+        margin:auto;
+        width:60%;
+        padding:0;
+    }
+    
+    .mobile-email input, .s-password{
+        margin:auto;
+        width:100%;
+        
+    }
+    .firstname input{
+        padding-right:0px;
+        margin-bottom:10px;
+        display:block;
+        width:100%;
+    }
+    .surname input{
+        box-sizing:border-box;
+        display:block;
+        width:100%;
+    }
+    .username{
+        display:block;
+        box-sizing:border-box;
+        
+    }
+    .form-text p{
+        display:block;
+        width:85%;
+    }
+}
 /*End Signup Section of Facebook Signup page*/

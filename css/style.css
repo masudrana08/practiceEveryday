@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
+    
 }
 .header{
     background-color:#3b5998;
@@ -17,7 +18,8 @@ body{
     display:flex;
     justify-content: space-between;
     max-width: 1300px;
-    margin:auto;
+    margin: auto;
+    
 }
 .logo img{
     margin-top:17px;
@@ -91,6 +93,9 @@ body{
 
 .right-part{
     margin-left:30px;
+}
+.left-part img{
+    
 }
 
 .right-title h1{
