@@ -1,5 +1,5 @@
 /*Start Header part of Facebook Signup page*/
-@media screen and (min-width:300px) and (max-width:950px){
+@media screen and (max-width:950px){
    
     .container{
         display:block;
@@ -70,7 +70,7 @@
 /*End Header part of Facebook Signup page*/
 
 /*Start Signup Section  of Facebook Signup page*/
-@media screen and (min-width:300px) and (max-width:950px){
+@media screen and (max-width:950px){
  
     .left-part img{
         width:70%;
@@ -84,6 +84,8 @@
         display:block;
         width:65%;
         margin:auto;
+        font-size:100%;
+       
     }
     .right-part{
         margin:auto;
@@ -116,10 +118,22 @@
         
     }
     .form-text p{
-        margin:auto;
+        
         display:block;
-        margin:0;
-        width:60%;
+        margin-top:10px;
+        width:70%;
+    }
+    .fmc label{
+        font-size:80%;
+    }
+    .signup-btn{
+        margin-top:20px;
+    }
+    .signup-btn  input{
+        padding:2% 17%;
+        
+        font-size:90%;
+        
     }
 }
 /*End Signup Section of Facebook Signup page*/
