@@ -1,5 +1,5 @@
 /*Start Header part of Facebook Signup page*/
-@media screen and (min-width:300px) and (max-width:600px){
+@media screen and (min-width:300px) and (max-width:950px){
    
     .container{
         display:block;
@@ -70,7 +70,7 @@
 /*End Header part of Facebook Signup page*/
 
 /*Start Signup Section  of Facebook Signup page*/
-@media screen and (min-width:300px) and (max-width:600px){
+@media screen and (min-width:300px) and (max-width:950px){
  
     .left-part img{
         width:70%;
